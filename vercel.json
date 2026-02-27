@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/scan.py": {
+      "runtime": "python3.11"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/scan",
+      "dest": "api/scan.py"
+    }
+  ]
+}
